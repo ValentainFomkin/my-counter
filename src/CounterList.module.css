@@ -1,0 +1,211 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #007fab;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.maxValue {
+
+}
+
+.maxValueInput {
+    margin-bottom: 30px;
+}
+
+.maxValueInput Input {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 30px;
+    border: 2px solid #007fab;
+    border-radius: 30px;
+    color: #007fab;
+}
+
+.maxValueInput span {
+    font-size: 40px;
+    color: #007fab;
+    font-weight: 600;
+}
+
+.maxValueButtons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.maxValueButtonPlus button {
+    margin-right: 30px;
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+.maxValueButtonMinus button {
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 0 21px;
+}
+
+
+.startValue {
+    display: flex;
+    flex-direction: column;
+}
+
+.startValueInput {
+    margin-bottom: 20px;
+}
+
+.startValueInput input {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 30px;
+    border: 2px solid #007fab;
+    border-radius: 30px;
+    color: #007fab;
+}
+
+.startValueInputError input {
+    text-align: center;
+    margin: 0 0 10px 20px;
+    font-size: 30px;
+    border: 2px solid #ffb5b5;
+    border-radius: 30px;
+    color: #007fab;
+}
+
+.startValueInputError span {
+    font-size: 40px;
+    color: #007fab;
+    font-weight: 600;
+}
+
+
+.startValueInput span {
+    font-size: 40px;
+    color: #007fab;
+    font-weight: 600;
+}
+
+.startValueButtons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.startValueButtonPlus button {
+    margin-right: 30px;
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+.startValueButtonMinus button {
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 0 21px;
+}
+
+.errorForStartValue {
+    color: #ff5c3f;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.setValue {
+    display: flex;
+    justify-content: center;
+}
+
+.setValue button {
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 5px 75px;
+}
+
+.setValueError button {
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 5px 75px;
+    opacity: 30%;
+}
+
+.windowShower {
+    font-size: 40px;
+    color: #007fab;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.windowShowerFinish {
+    font-size: 40px;
+    color: #77ff54;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.finish {
+    font-size: 40px;
+    color: #77ff54;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.windowShowerButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.windowShowerButtonInc button {
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 5px 75px;
+}
+
+.windowShowerButtonReset button {
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 5px 75px;
+}
+
+.windowShowerButtonsDisable button {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007fab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 5px 75px;
+    opacity: 30%;
+}
