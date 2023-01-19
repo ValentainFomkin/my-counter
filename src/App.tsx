@@ -19,15 +19,10 @@ function App() {
 
     const minusMaxValue = () => setMaxValue(maxValue - 1)
 
+    const sumStartValue = () => setStartValue(startValue + 1)
 
-    const sumStartValue = () => {
-        setStartValue(startValue + 1)
-        // setCounter(startValue + 1)
-    }
-    const minusStartValue = () => {
-        setStartValue(startValue - 1)
-        // setCounter(startValue - 1)
-    }
+    const minusStartValue = () => setStartValue(startValue - 1)
+
 
     const setLSMaxValueAndStartValue = () => {
         if (startValue !== maxValue || startValue > maxValue) {
